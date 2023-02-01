@@ -1,0 +1,47 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.app-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app-input {
+  width: 250px;
+  height: 20px;
+  margin: 20px;
+}
+
+.result-image {
+  margin-top: 20px;
+  width: 350px;
+}
+
+.select-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.select-title {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.select-size {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.generate-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+}
